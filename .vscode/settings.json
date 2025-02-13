@@ -2,6 +2,7 @@
     "files.associations": {
         "*.ejs": "html",
         "string": "cpp",
-        "condition_variable": "cpp"
+        "condition_variable": "cpp",
+        "iostream": "cpp"
     }
 }

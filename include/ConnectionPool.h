@@ -36,6 +36,9 @@ private:
     //this指针绑定
     void produceConnectionTask();
 
+    //扫描超过maxIdleTime时间的空闲连接，进行连接回收
+    void scannerConnectionTask();
+
     string _ip; //mysql的ip
     unsigned short _port;//端口号 3306
     string _username;//mysql登录用户名

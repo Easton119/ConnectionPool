@@ -25,10 +25,10 @@ bool Connection::update(string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {
-        LOG("更新失败:" + sql);
+        // LOG("更新失败:" + sql);
         return false;
     }
-    cout<<"更新成功"<<endl;
+    // cout<<"更新成功"<<endl;
     return true;
 }
 // 查询操作 select
